@@ -10,7 +10,7 @@ metadata:
 spec:
   project: {{ .Values.argoProject | default "default" }}
   destination:
-    namespace: team-burnham
+    namespace: team-group-2
     server: {{ .Values.spec.destination.server }}
   source:
     repoURL: {{ .Values.spec.source.repoURL }}

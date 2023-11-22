@@ -13,9 +13,9 @@ spec:
     namespace: team-group-2
     server: {{ .Values.spec.destination.server }}
   source:
-    repoURL: https://github.com/amitp-git/aussie-holiday-api
+    repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    #path: teams/team-burnham/dev
+    path: 
     helm:
       values: |
         {{- toYaml .Values | nindent 8 }}

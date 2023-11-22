@@ -8,7 +8,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/amitp-git/aussie-holiday-api
+    repoURL: https://github.com/amitp-git/eks-blueprints-workloads
     targetRevision: main
 
   # Thoses default values can be surcharged by Infrastructure as Code

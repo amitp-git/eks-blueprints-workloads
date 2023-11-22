@@ -4,7 +4,6 @@ metadata:
   name: holidayapi
   namespace: demo
 spec:
-  serviceAccountName: holiday-app
   containers:
   - name: holidayapi
     image: 140994323853.dkr.ecr.us-west-2.amazonaws.com/dreamteam:v2

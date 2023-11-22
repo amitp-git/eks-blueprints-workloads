@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: holidayapi-service
 spec:
-  type: nodePort
+  type: NodePort
   selector:
     name: holiday-app
   ports:

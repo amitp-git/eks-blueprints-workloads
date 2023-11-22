@@ -7,6 +7,6 @@ spec:
   selector:
     name: holiday-app
   ports:
-    - nodePort: 30165
+    - nodePort: 30168
       port: 8080
       targetPort: 8080

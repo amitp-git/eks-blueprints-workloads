@@ -13,8 +13,8 @@ spec:
     namespace: default
     server: {{ .Values.spec.destination.server }}
   source:
-    repoURL: {{ .Values.spec.source.repoURL }}
-    targetRevision: {{ .Values.spec.source.targetRevision }}
+    repoURL: https://github.com/rkhandelwal17/aussie-holiday-api.git
+    targetRevision: main
     path: k8s
   syncPolicy:
     automated:
